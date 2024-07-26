@@ -338,11 +338,6 @@ while True:
     print()
     POL_NUM += 1
 
-    f = open("const.dat", "a")
-    f.write(f.readline().replace(POL_NUM))
-    f.close()
-
-
     while True:
         addPol = input("Would you like to create another policy? (Y/N): ").upper()
 
